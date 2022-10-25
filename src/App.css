@@ -1,0 +1,37 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.P-h{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.product-card{
+  height: fit-content;
+  border: 1px solid rgb(171, 145, 142);
+  margin-bottom: 4px;
+}
+.card-img{
+  height: 250px;
+}
+.cart-img{
+  height: 10px;
+}
+.cart-item-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1.6rem;
+ 
+  margin-right: 1rem;
+  background-color: aliceblue;
+
+}
+.cart-btn{
+  margin: 1rem;
+  padding: 1px;
+}
